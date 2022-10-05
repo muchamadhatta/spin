@@ -56,7 +56,16 @@ function spin() {
 
     setTimeout(function () {
         // allert
-    })
+        applause.play();
+        Swal.fire({
+            title: 'Horaaay.....',
+            html: 'You Won ' + SelectedItem + ' | ' + '<a href="#" style="text-decoration:none;color:blue"> Claim Now </a>',
+            imageUrl: 'assets/logo.png',
+            imageWidth: 200,
+            imageHeight: 200,
+            imageAlt: 'Custom image',
+        })
+    }, 6000)
 
     setTimeout(function () {
         box.style.setProperty("transition", "initial");

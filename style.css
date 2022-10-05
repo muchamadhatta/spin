@@ -19,7 +19,7 @@ body{
     position: relative;
     width: 500px;
     height: 500px;
-    margin-top: 50px;
+    margin-top: 200px;
 }
 .mainbox:after{
     position: absolute;
